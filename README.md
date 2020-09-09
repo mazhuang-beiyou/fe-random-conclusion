@@ -15,4 +15,4 @@
 ### 十. 数据结构与算法
 ### 十一. 好文精选
 ### 十二. 杂七杂八
-* [github图片不能显示](../other/noGithubImage.md)
+* [github图片不能显示](./other/noGithubImage.md)
