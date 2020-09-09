@@ -46,10 +46,11 @@ css:
 ```
 content: attr(title);
 ```
-### 没看明白什么意思，于是查了[MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/attr)文档，但是也没发现有解释attr(title)的解释，但是又这么两句话:
+### 没看明白什么意思，查了[MDN](https://developer.mozilla.org/zh-CN/docs/Web/CSS/attr)文档，有这么两句话:
 * CSS表达式 attr() 用来获取选择到的元素的某一HTML属性值，并用于其样式。它也可以用于伪元素，属性值采用伪元素所依附的元素。
 * attr() 表达式可以用于任何CSS属性
-### 于是乎我尝试了一下只写:
+### 但是也没法有关于title的解释
+### 尝试了一下只写:
 ```
 .nav a::before {
     display: block;
