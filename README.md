@@ -6,9 +6,10 @@
 > 1.[手动实现一个Promise练习](./js/20200925/index.js)
 * ### vue
 > 1. [vue组件爷孙组件传值方法(不用vuex)](./vue/20200918.md)
-> 2. [组件中的beforeDoSomething]()
+> 2. [组件中的beforeDoSomething]() pending...
 * ### css
 > 1. [menu菜单hover后字体加粗导致菜单移动](./css/20200909.md)
+> 2. [盒子不会被字自动撑开的问题](./css/20200926.md) pending...
 * ### webpack
 * ### html
 * ### web安全相关
