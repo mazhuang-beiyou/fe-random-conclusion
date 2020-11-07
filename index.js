@@ -1,11 +1,28 @@
-function add() {
-    let args = [...arguments]
-    function sum() {
-        // return add.apply(null, [...args, ...arguments])
-        return add.call(null, ...[...args, ...arguments])
+var a = 1
+function debounce(fn, time) {
+    let args = arguments
+    let timeout = null
+    return function () {
+        if (timeout) {
+            clearTimeout(timeout)
+        }
+        timeout = setTimeout(() => {
+            fn.call(this, args)
+        }, time);
     }
-    sum.toString = () => args.reduce((a, b) => a + b)
-    return sum;
+}
+function fn(params) {
+    console.log('fn', params, this.a)
+}
+const obj = {
+    a: 2,
+    fn(params) {
+        console.log('fn', params, this.a)
+    },
+    debouncedFn: debounce(this.fn, 500, 'params')
 }
 
-console.log(add(1, 2, 3, 4)(2, 3))
+obj.debouncedFn()
+// setTimeout(() => {
+//     obj.debouncedFn()
+// }, 200);
