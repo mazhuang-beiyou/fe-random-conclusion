@@ -21,6 +21,7 @@
 * ### nodejs
 * ### react
 * ### 数据结构与算法
+> 1. [堆排序复习](./algorithms/20201109.md)
 * ### 好文精选
 > 1. [手动实现一个Promise](https://mp.weixin.qq.com/s?__biz=MzIzMTc4NzIyNw==&mid=2247487350&idx=2&sn=7b8063210e87573ce2a31158bb82ce15&chksm=e89f90c2dfe819d4fabf6a002729ab8698170da99e9b62aab084fbb47bc7ab3f73e55e5ca054&mpshare=1&scene=24&srcid=0914A4gs0xhLcfObYj2ZKjfu&sharer_sharetime=1600034663351&sharer_shareid=2b94466aef674de15f1ca3455ab17118#rd)
 > 2. [讶羽大佬的js专题复习](https://github.com/mqyqingfeng/Blog)
