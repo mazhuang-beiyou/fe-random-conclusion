@@ -24,3 +24,5 @@ function getName() {
 // new Foo.getName();
 // new Foo().getName();
 // new new Foo().getName(); 
+
+We are alumni. it is comfortable to getting along with him. I feel that he is smart, punctual, kind, and good at thinking, he never panic while meeting problems
